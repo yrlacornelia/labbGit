@@ -1,0 +1,18 @@
+
+18.
+git tag -a v1.4 -m " Version 1.0”
+
+19.
+git rebase -i
+genomföra en interactive rebase
+
+20.
+git switch feature2
+ändrar i fix2
+git add fix2.txt
+git commit -m "does reabase and add text in fix2"
+git switch main
+git merge feature2
+git add fix2.txt
+git commit -m "merge with feature2"
+git push
