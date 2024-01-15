@@ -1,0 +1,75 @@
+1.
+mkdir gitLabb,
+cd gitLabb
+git init
+git branch -M main
+
+2.
+nano README.md
+lägg till 3 rader med djur i filen.
+
+3.
+git add README.md
+git commit -m “initial commit”
+
+
+4.
+git branch feature1
+git switch feature1
+
+5.
+Ändrar i filen
+git add README.md
+git commit -m “add dog change moose to mouse”
+
+6.
+git switch main
+Ändrar i filen
+git add README.md
+git commit -m “change moose to mahmut”
+
+7.
+git merge feature1
+fixar merge conflict
+git add README.md
+git commit -m “merge branch feature1”
+
+8.
+
+git tag extinct  cb21
+
+9.git reset --hard  71417
+
+10.
+Ändrar i filen
+git add README.md
+git commit -m “change to uppercase”
+
+11.
+git branch feature2
+
+12.
+git switch feature2
+nano fix1.txt
+git add fix1.txt
+git commit -m “add file fix1.txt”
+nano fix2.txt
+git add fix2.txt
+git commit -m “add file fix2.txt”
+
+13.
+git swicth main
+
+14.
+git cherry-pick 90074
+
+15.
+ändra i fil
+
+16.
+git remote add origin https://github.com/yrlacornelia/gitLabb.git
+git push -u origin main
+
+git add fix2.txt
+git commit -m "add all git commands"
+git push
