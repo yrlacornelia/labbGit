@@ -73,3 +73,9 @@ git push -u origin main
 git add fix2.txt
 git commit -m "add all git commands"
 git push
+
+17.
+skapar filer gitignore etc
+git add .gitignore
+git add target
+git add fix2.txt
